@@ -21,7 +21,7 @@ class Doctor
   end
 
   def new_appointment
-        
+    new_appointment = Appointment.new()    
   end
 
 end
