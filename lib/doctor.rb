@@ -3,8 +3,9 @@ class Doctor
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name, date)
     @name = name
+    @date = date
     @@all << self
   end
 
