@@ -21,6 +21,6 @@ class Patient
   end
 
   def new_appointment
-    
+    new_appointment = 
   end
 end
