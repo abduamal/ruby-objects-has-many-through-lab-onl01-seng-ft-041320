@@ -13,6 +13,6 @@ class Doctor
   end
 
   def appointments
-
+    self.all.select { |appointment| appointment.}
   end
 end
